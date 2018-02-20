@@ -1,4 +1,4 @@
-# MageConf’17 Magento Cloud workshop
+# MagentoLive’18 Magento Cloud workshop
 
 ## Preparation
 ### Add your SSH key
@@ -19,8 +19,8 @@ Go to the **Projects** tab and select a project. Clone the project using a git l
 ![Clone the project](/images/clone_project.png?raw=true)
 
 ```
-git clone <projectid>@git.eu-3.magento.cloud:<projectid>.git mageconf2017
-cd mageconf2017
+git clone <projectid>@git.eu-3.magento.cloud:<projectid>.git magentolive
+cd magentolive
 ```
 
 Rest of commands will be performed from the project directory.
@@ -33,7 +33,7 @@ The environment variables can be added through web UI or cli utility.
 The **ADMIN_PASSWORD** variable controls a password of the admin user. To change the admin's password,
 go to the **Configure environment** > **Variables** and add the following environment variable:
 ```
-ADMIN_PASSWORD = mageconf2017
+ADMIN_PASSWORD = magentolive18
 ```
 ![Set admin password](/images/admin_password.png?raw=true)
 
